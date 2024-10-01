@@ -1,0 +1,106 @@
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f3ec78, #af4261);
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  height: 100vh;
+}
+
+/* Page Styling */
+.page {
+  display: none;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #ff5733;
+}
+
+/* Tic Tac Toe Table Styling */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #fff;
+  text-align: center;
+  font-size: 32px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #333;
+}
+
+#ticTacToe td {
+  background: linear-gradient(135deg, #87CEFA, #FFB6C1);
+  border-radius: 10px;
+}
+
+#ticTacToe td:hover {
+  background: linear-gradient(135deg, #FFD700, #FF6347);
+  color: white;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ff1493;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff4500;
+  transform: scale(1.05);
+}
+
+/* Username Display */
+#usernameDisplay {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
